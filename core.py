@@ -10,7 +10,7 @@ from abc import ABCMeta, abstractmethod
 
 import numpy as np
 import tensorflow as tf
-from tensorflow.python import control_flow_ops
+from tensorflow.python.ops import control_flow_ops
 import tensorlight as light
 
 CHECKPOINT_FILE = "model.ckpt"
